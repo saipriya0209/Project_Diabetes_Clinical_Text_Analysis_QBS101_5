@@ -2,6 +2,13 @@
 
 This project focuses on utilizing Natural Language Processing (NLP) techniques to analyze medical text data from the N2C2 database. The goal is to predict the presence of Diabetes and its co-morbidities. https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
 
+## Usage
+
+- Clone the Git repository and open the Scripts folder
+- First, open the data_wrangling.ipynb notebook and run each cell to clean and wrangle the medical text into a data frame
+- Then open the data_model.ipynb notebook to read the final data frame and use this wrangled data into an XG Boost model
+- Optional - An attempt to generate netowork diagram in graph notebook (The example is in the data_wrangling.ipynb notebook last cells)
+
 ## Data Retrieval
 
 The project is initiated by fetching medical text data from the N2C2 database using HTTP requests. The retrieved XML data is parsed, and a DataFrame is structured to hold document IDs and text content.
