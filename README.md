@@ -5,9 +5,9 @@ This project focuses on utilizing Natural Language Processing (NLP) techniques t
 ## Usage
 
 - Clone the Git repository and open the Scripts folder
-- First, open the data_wrangling.ipynb notebook and run each cell to clean and wrangle the medical text into a data frame
-- Then open the data_model.ipynb notebook to read the final data frame and use this wrangled data into an XG Boost model
-- Optional - An attempt to generate netowork diagram in graph notebook (The example is in the data_wrangling.ipynb notebook last cells)
+- First, open the <code> data_wrangling.ipynb </code> notebook and run each cell to clean and wrangle the medical text into a data frame
+- Then open the <code> data_model.ipynb </code> notebook to read the final data frame and use this wrangled data in an XG Boost model
+- Optional - An attempt to generate a network diagram in <code> graph_generation.ipynb </code> notebook (The example is in the <code> data_wrangling.ipynb </code> notebook at the end)
 
 ## Data Retrieval
 
@@ -19,7 +19,7 @@ Text preprocessing involves essential steps like tokenization, stopword removal,
 
 ## Named Entity Recognition
 
-Named Entities are extracted from medical text using a pre-trained model and tokenizer from Hugging Face (https://huggingface.co/d4data/biomedical-ner-all). This process sheds light on vital medical terms.
+Named Entities are extracted from medical text using a pre-trained model and tokenizer from Hugging Face https://huggingface.co/d4data/biomedical-ner-all). This process sheds light on vital medical terms.
 
 ## Disease Entity Extraction
 
