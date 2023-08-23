@@ -1,6 +1,6 @@
 # Clinical Text Analysis to Predict Diabetes and Co-morbidities
 
-This project focuses on utilizing Natural Language Processing (NLP) techniques to analyze medical text data from the N2C2 database. The goal is to predict the presence of Diabetes and its co-morbidities.
+This project focuses on utilizing Natural Language Processing (NLP) techniques to analyze medical text data from the N2C2 database. The goal is to predict the presence of Diabetes and its co-morbidities. https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
 
 ## Data Retrieval
 
@@ -16,7 +16,7 @@ Named Entities are extracted from medical text using a pre-trained model and tok
 
 ## Disease Entity Extraction
 
-Custom functions are designed to extract disease-related entities from the NER output. These extracted entities are categorized and stored for each medical record.
+Custom functions are designed to extract disease-related entities from the NER output. These extracted entities are categorized and stored for each medical record. https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT
 
 ## Word Embeddings
 
