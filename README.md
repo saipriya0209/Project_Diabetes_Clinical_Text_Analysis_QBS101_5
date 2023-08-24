@@ -1,4 +1,4 @@
-# <p align = "center">Clinical Text Analysis to Predict Diabetes and Co-morbidities </p>
+# <p align = "center" link = "Presentation and Images/Performance_metric_comparision_tableu_graph.png">Clinical Text Analysis to Predict Diabetes and Co-morbidities </p>
 
 This project focuses on utilizing Natural Language Processing (NLP) techniques to analyze medical text data from the N2C2 database. The goal is to predict the presence of Diabetes and its co-morbidities. https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
 
