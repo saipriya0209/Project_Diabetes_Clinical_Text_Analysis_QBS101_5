@@ -39,4 +39,4 @@ Given the categorical nature of outcomes and variables, XGBoost is employed to p
 
 ### Conclusion
 
-This project highlights the practical application of NLP techniques in medical text analysis. Through the combination of data retrieval, preprocessing, Named Entity Recognition, and word embeddings, valuable insights can be gleaned from medical text data with reasonable performance. The developed model achieves an impressive 74% accuracy and 84% F-Score in predicting the presence of Diabetes. Improvements can be further made with larger amounts of data and better fine-tuning techniques.
+This project highlights the practical application of NLP techniques in medical text analysis. Through the combination of data retrieval, preprocessing, Named Entity Recognition, and word embeddings, valuable insights can be gleaned from medical text data with reasonable performance. The developed model achieves an impressive <code> 74% accuracy </code> and <code> 84% F-Score </code> in predicting the presence of Diabetes. Improvements can be further made with larger amounts of data and better fine-tuning techniques.
