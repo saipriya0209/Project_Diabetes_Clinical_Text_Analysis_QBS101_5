@@ -15,15 +15,14 @@ The project is initiated by fetching medical text data from the N2C2 database us
 
 ## Text Preprocessing
 
-Text preprocessing involves essential steps like tokenization, stopword removal, and punctuation removal. This cleaned text is then poised for further analysis.
+Text preprocessing involves essential steps like tokenization, stopword removal, and punctuation removal. This cleaned text is then used for further analysis.
 
 ## Named Entity Recognition
 
-Named Entities are extracted from medical text using a pre-trained model and tokenizer from Hugging Face https://huggingface.co/d4data/biomedical-ner-all). This process sheds light on vital medical terms.
-
+Named Entities are extracted from medical text using a pre-trained model and tokenizer from Hugging Face https://huggingface.co/d4data/biomedical-ner-all). This process gets us tagged words from the text.
 ## Disease Entity Extraction
 
-Custom functions are designed to extract disease-related entities from the NER output. These extracted entities are categorized and stored for each medical record. https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT
+Functions are created to extract disease-related entities from the NER output. These extracted entities are categorized and stored for each medical record. https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT
 
 ## Word Embeddings
 
@@ -31,8 +30,8 @@ Bio_ClinicalBert, a pre-trained model, generates word embedding vectors for medi
 
 ## Predictive Model
 
-Given the categorical nature of outcomes and variables, XGBoost is employed to predict the presence of Diabetes and co-morbid disorders. The model integrates the extracted features for accurate predictions.
+Given the categorical nature of outcomes and variables, XGBoost is employed to predict the presence of Diabetes and co-morbid disorders. The model integrates the extracted features for accurate predictions. Accuracy and F-Score were used to measure the performance of the model
 
 ## Conclusion
 
-This project underscores the practical application of NLP techniques in medical text analysis. Through the amalgamation of data retrieval, preprocessing, Named Entity Recognition, and word embeddings, valuable insights are gleaned from medical text data. The developed model achieves an impressive 74% accuracy in predicting the presence of Diabetes.
+This project highlights the practical application of NLP techniques in medical text analysis. Through the combination of data retrieval, preprocessing, Named Entity Recognition, and word embeddings, valuable insights can be gleaned from medical text data with reasonable performance. The developed model achieves an impressive 74% accuracy and 84% F-Score in predicting the presence of Diabetes. Improvements can be further made with larger amounts of data and better fine-tuning techniques.
