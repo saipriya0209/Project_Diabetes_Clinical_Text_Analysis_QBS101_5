@@ -1,0 +1,24 @@
+-- Python Version 3.11.4
+-- Required Libraries to run the notebooks
+xmltodict
+nltk
+numpy
+re
+collections
+pandas
+requests
+os
+pathlib
+glob
+re
+nltk.download('punkt')
+xml.etree.ElementTree
+string
+transformers
+torch
+sklearn.model_selection
+sklearn.svm
+sklearn.metrics
+sklearn.ensemble
+xgboost
+--Jupyter notebook or Visual studio code to handle notebook files of type .ipynb
