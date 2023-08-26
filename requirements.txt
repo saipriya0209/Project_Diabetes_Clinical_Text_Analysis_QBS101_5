@@ -1,4 +1,5 @@
 -- Python Version 3.11.4
+-- Note: sometimes the url of training and test data can expire before running the model
 -- Required Libraries to run the notebooks
 xmltodict
 nltk
