@@ -5,12 +5,12 @@ This project focuses on utilizing Natural Language Processing (NLP) techniques t
 ## Usage
 
 - Clone the Git repository and open the Scripts folder
-- First, open the <code>[data_wrangling.ipynb](scripts/data_wrangling.ipynb)</code> notebook, add your xml url to the obesity data, and run each cell to clean and wrangle the medical text into a data frame
-- Then open the <code>[data_model.ipynb](scripts/data_model.ipynb)</code> notebook to read the final data frame and use this wrangled data in an XG Boost model
-- Optional - An attempt to generate a network diagram in <code>[graph_generation.ipynb](scripts/graph_generation.ipynb)</code> notebook (The example is in the <code>[data_wrangling.ipynb](scripts/data_wrangling.ipynb)</code> notebook at the end)
+- First, open the <code>[data_wrangling.ipynb](notebooks/data_wrangling.ipynb)</code> notebook, add your xml url to the obesity data, and run each cell to clean and wrangle the medical text into a data frame
+- Then open the <code>[data_model.ipynb](notebooks/data_model.ipynb)</code> notebook to read the final data frame and use this wrangled data in an XG Boost model
+- Optional - An attempt to generate a network diagram in <code>[graph_generation.ipynb](notebooks/graph_generation.ipynb)</code> notebook (The example is in the <code>[data_wrangling.ipynb](notebooks/data_wrangling.ipynb)</code> notebook at the end)
 
 ## Performance metric comparison
-![Performance Metric Comparison](Presentation%20and%20Images/Performance_metric_comparision_tableu_graph.png)
+![Performance Metric Comparison](Presentation-and-projectDocuments/Performance_metric_comparision_tableu_graph.png)
 
 ## Summary of the process
 
